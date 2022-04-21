@@ -1,0 +1,137 @@
+/**********TAG Selectors*************/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merienda", cursive;
+  color: #40514e;
+}
+
+hr {
+  width: 5%;
+  border: dotted #ade8ec 6px;
+  border-bottom: none;
+  margin: 100px auto;
+}
+h1 {
+  font-size: 90px;
+  margin: 50px auto 0 auto;
+  font-family: "Nothing You Could Do", cursive;
+  color: #66bfbf;
+  line-height: 2;
+}
+h2 {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 40px;
+  font-weight: normal;
+  color: #66bfbf;
+}
+h3 {
+  color: #11999e;
+}
+a {
+  color: #11999e;
+  margin: 10px 10px;
+  text-decoration: none;
+  font-family: "Merienda", cursive;
+}
+a:hover {
+  color: white;
+}
+
+p {
+  margin: 0 auto;
+  line-height: 2;
+}
+
+/********* CLASS Selectors**************/
+
+.top-container {
+  background-color: rgb(206, 192, 240);
+  padding-top: 100px;
+  position: relative;
+}
+
+.cloud-one {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.cloud-two {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.middle-container {
+  margin: 100px 0;
+}
+.profile {
+  margin: auto;
+  width: 30%;
+}
+.japan-flag {
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.skill-row {
+  margin: 50px 20px;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.serbian-flag {
+  width: 25%;
+
+  float: left;
+  padding-right: 30px;
+}
+.ramen {
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  padding-left: 30px;
+}
+
+.contact-p {
+  margin: 40px auto 60px;
+}
+.btn {
+  font-family: "Nothing You Could Do", cursive;
+  background: #90d3f0;
+  background-image: -webkit-linear-gradient(top, #90d3f0, #2bb892);
+  background-image: -moz-linear-gradient(top, #90d3f0, #2bb892);
+  background-image: -ms-linear-gradient(top, #90d3f0, #2bb892);
+  background-image: -o-linear-gradient(top, #90d3f0, #2bb892);
+  background-image: linear-gradient(to bottom, #90d3f0, #2bb892);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.bottom-container {
+  background-color: rgb(206, 192, 240);
+  padding: 50px 0 20px;
+}
+.footer-link {
+  padding: 10px;
+}
+.footer-p {
+  color: white;
+  font-size: 13px;
+  padding: 20px 0;
+}
